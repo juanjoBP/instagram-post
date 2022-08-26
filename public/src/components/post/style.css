@@ -1,0 +1,80 @@
+section{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fila{
+    background-color: white;
+    padding:50px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:5px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.foto{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+.name{
+    max-height: 40px;
+    
+}
+#direct{
+    font-size: 10px;
+}
+.elipsis{
+    display: flex;
+    justify-content: flex-end;
+}
+.post{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post{
+    width: 400px;
+    height: 400px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.space{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+.position{
+    margin-left: -5rem;
+}
+.comments{
+    margin-bottom:60px;
+}
+.debajo{
+    font-size:12px;
+    margin-bottom:-8px;
+    
+}
+.description{
+    color: rgb(160, 160, 160);
+}
